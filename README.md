@@ -25,7 +25,7 @@ Additional notes:
 
 ### Substitute replacement command
 
-**.. | sed 'option' s/`pattern`/`replacement`/`flags`;`other-chained-actions`**
+**.. | sed `option` s/`pattern`/`replacement`/`flags`;`other-chained-actions`**
 
 **Options**
 
