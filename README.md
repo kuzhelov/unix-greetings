@@ -44,7 +44,7 @@ Represents string on which text fragment that match `pattern` will be replaced. 
 Multiple flags can be combined - `.. | sed s/one/two/gp`.
 
 * **g** - apply substitution to all strings of the input (stands for `global`)
-* **p** - send modified version of `pattern space` to the output stream (stands for `print`). Effectively results in a double output of the strings that were modified - double output of their modified version.
+* **p** - send modified version of `pattern space` to the output stream (stands for `print`). Effectively results in a double output of the strings that were modified (where substitution has taken place - even if it has result in the same string as the original was) - double output of their modified version.
 
 **Other chained actions**
 
