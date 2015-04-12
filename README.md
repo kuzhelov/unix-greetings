@@ -50,7 +50,7 @@ Multiple flags can be combined - `.. | sed s/one/two/gp`.
 
 * **d** - delete the modified line of the `pattern space` - i.e., this line will not be sent to the output stream. This action will not prevent sending copied version of modified lines to the output stream (for example, those that were produced by the `p` flag)
 
-** Usage examples **
+**Usage examples**
 
 `.. | sed s/one/two/gp;d` - will output only the lines where replacement `one` on `two` has taken place. Other lines will be skipped.
 
